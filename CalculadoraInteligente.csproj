@@ -8,6 +8,13 @@
     <AssemblyName>MultiCalculos</AssemblyName>
     <RootNamespace>CalculadoraInteligente</RootNamespace>
     <ApplicationIcon>UI\image\calculator_icon.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
   </PropertyGroup>
-</Project>
 
+  <ItemGroup>
+    <None Update="update-config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>

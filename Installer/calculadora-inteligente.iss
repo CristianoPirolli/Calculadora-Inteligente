@@ -1,6 +1,11 @@
-﻿[Setup]
+﻿#ifndef AppVersion
+  #define AppVersion "1.0.0"
+#endif
+
+[Setup]
+AppId={{E52B4B74-8D2A-4864-8C5A-708A5DF1E5D3}
 AppName=MultiCálculos
-AppVersion=1.0.0
+AppVersion={#AppVersion}
 AppPublisher=Cristiano Pirolli
 AppPublisherURL=https://github.com/CristianoPirolli
 AppSupportURL=https://github.com/CristianoPirolli
@@ -8,7 +13,7 @@ AppUpdatesURL=https://github.com/CristianoPirolli
 DefaultDirName={autopf}\MultiCalculos
 DefaultGroupName=MultiCálculos
 OutputDir=build
-OutputBaseFilename=MultiCalculos-Setup
+OutputBaseFilename=MultiCalculos-Setup-{#AppVersion}
 Compression=lzma
 SolidCompression=yes
 WizardStyle=classic

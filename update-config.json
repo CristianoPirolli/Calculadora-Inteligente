@@ -1,0 +1,6 @@
+﻿{
+  "enabled": false,
+  "manifestUrl": "https://CristianoPirolli.github.io/Calculadora-Inteligente/version.json",
+  "timeoutSeconds": 8,
+  "promptBeforeInstall": true
+}
